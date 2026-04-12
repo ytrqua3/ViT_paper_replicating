@@ -12,9 +12,12 @@ Also, I am curious what will the optimal structure that the paper suggests and m
 <ul>
 <li>2d interpolation is basically torchvision.transforms.Resize</li>
 <li>a hybrid model refers to applying ViT on feature maps from CNN</li>
+<li>models experimented:</li>
 <ol>
   <li>ViT: Base(12 layers, 12 attention heads per layer), Large(24 * 16), Huge(32 * 16)</li>
   <li>CNN: ResNet, EfficientNet</li>
   <li>hybrid: ResNet50 (with stage 4) -> ViT, REsNet50 (without stage 4) - ViT</li>
 </ol>
+<li>attention distance: sum of attention weight * physical distance, small means that the block is focusing on local(nearby) tokens</li>
+<li></li>
 </ul>

@@ -20,6 +20,6 @@ Also, I am curious what will the optimal structure that the paper suggests and m
 </ol>
 <li>attention distance: sum of attention weight * physical distance, small means that the block is focusing on local(nearby) tokens</li>
   
-![attention distance graph](https://figures.semanticscholar.org/268d347e8a55b5eb82fb5e7d2f800e33c75ab18a/18-Figure11-1.png)
+![attention distance graph](https://github.com/ytrqua3/ViT_paper_replicating/blob/322ab0b1e8944679753719bfae7e803dc009524e/attention_distance_graph.png)
 <li></li>
 </ul>

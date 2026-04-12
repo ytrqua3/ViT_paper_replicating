@@ -9,4 +9,7 @@ As mentioned in the article, "The last visualization shows that the ViT is able 
 Also, I am curious what will the optimal structure that the paper suggests and more ways to evaluate a model (they have some interesting graphs). Therefore, I took some time to read through the paper.</p>
 
 <h4>April 12</h4>
-<p>2d interpolation is basically torchvision.transforms.Resize</p>
+<ul>
+<li>2d interpolation is basically torchvision.transforms.Resize</li>
+
+</ul>

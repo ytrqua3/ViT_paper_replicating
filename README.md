@@ -8,9 +8,10 @@ I would assume that ViT does something similar where the is a particualr token t
 As mentioned in the article, "The last visualization shows that the ViT is able to look at local and global features in lower layers". Unlike CNN, which is built based on the relevance of nearby pixels, ViT is able to look at the big picture.
 Also, I am curious what will the optimal structure that the paper suggests and more ways to evaluate a model (they have some interesting graphs). Therefore, I took some time to read through the paper.</p>
 
-<h4>April 12</h4>
+<h4>Important takeaways from the paper</h4>
 <ul>
 <li>2d interpolation is basically torchvision.transforms.Resize</li>
+<li>the patches flattened then linearly transformed (equivalent to doing a Conv2d with stride=P, kernel_size=P)</li>
 <li>a hybrid model refers to applying ViT on feature maps from CNN</li>
 <li>models experimented:</li>
 <ol>
@@ -27,4 +28,8 @@ Also, I am curious what will the optimal structure that the paper suggests and m
 
 ![attention on each patch](https://github.com/ytrqua3/ViT_paper_replicating/blob/9c0ecc6bdef7c5871e058ae3454c22c9a958b450/6.png)
 <li>These figures show the attention on each patch according to the attention matrix and the model attends to regions that are helpful for classification</li>
+<li>Both globally average pooling and class token work</li>
+<li>positional embeddings are trainable parameters unlike some transformer models that use fixed sinusoidal functions</li>
 </ul>
+
+<h4>transfer learning using pretrained CNN and ViT for Comparison</h4>

@@ -19,5 +19,6 @@ Also, I am curious what will the optimal structure that the paper suggests and m
   <li>hybrid: ResNet50 (with stage 4) -> ViT, REsNet50 (without stage 4) - ViT</li>
 </ol>
 <li>attention distance: sum of attention weight * physical distance, small means that the block is focusing on local(nearby) tokens</li>
+![attention distance graph](https://figures.semanticscholar.org/268d347e8a55b5eb82fb5e7d2f800e33c75ab18a/18-Figure11-1.png)
 <li></li>
 </ul>

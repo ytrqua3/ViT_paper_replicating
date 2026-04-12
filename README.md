@@ -25,5 +25,6 @@ Also, I am curious what will the optimal structure that the paper suggests and m
 <li>The graph also shows that for a hybrid model, the lower layers learn less globally, deducing that the CNN does the local learning before passing into ViT</li>
 <li>This behavior is similar to CNN where the receptive field grows as the models goes deeper</li>
 
-![attention on each patch]()
+![attention on each patch](https://github.com/ytrqua3/ViT_paper_replicating/blob/7b2f9fd53e36e434feb2f78d2c5f45fdaa6200ed/figure6.htm)
+<li>These figures show the attention on each patch according to the attention matrix and the model attends to regions that are helpful for classification</li>
 </ul>

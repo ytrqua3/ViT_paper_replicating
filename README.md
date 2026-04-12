@@ -21,5 +21,9 @@ Also, I am curious what will the optimal structure that the paper suggests and m
 <li>attention distance: sum of attention weight * physical distance, small means that the block is focusing on local(nearby) tokens</li>
   
 ![attention distance graph](https://github.com/ytrqua3/ViT_paper_replicating/blob/322ab0b1e8944679753719bfae7e803dc009524e/attention_distance_graph.png)
-<li></li>
+<li>The graph shows that the ViT learns both locally and globally in lower layers, then gradually becomes more global as the model goes deeper</li>
+<li>The graph also shows that for a hybrid model, the lower layers learn less globally, deducing that the CNN does the local learning before passing into ViT</li>
+<li>This behavior is similar to CNN where the receptive field grows as the models goes deeper</li>
+
+![attention on each patch]()
 </ul>

@@ -32,4 +32,13 @@ Also, I am curious what will the optimal structure that the paper suggests and m
 <li>positional embeddings are trainable parameters unlike some transformer models that use fixed sinusoidal functions</li>
 </ul>
 
-<h4>transfer learning using pretrained CNN and ViT for Comparison</h4>
+<h4>Structure of the model</h4>
+<ol>
+  <li>Split the image into 16x16 patches -> Flatten -> trainable linear projection -> add learnable positional encoding</li>
+  <li>Transformer Encoder:</li>
+  <ol>
+    <li>Multihead self attention</li>
+    <li>Multilayer perceptron: "two layers with a GELU non-linearity"</li>
+  </ol>
+  <li>Classifier</li>
+</ol>

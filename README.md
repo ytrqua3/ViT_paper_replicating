@@ -48,4 +48,4 @@ Also, I am curious what will the optimal structure that the paper suggests and m
 ![notes p.2](https://github.com/ytrqua3/ViT_paper_replicating/blob/913129242fa5dee25b8be47eff428b9099097fd5/ViT_notes2.jpeg)
 
 ![ViT structure](https://github.com/ytrqua3/ViT_paper_replicating/blob/b14c4ac9367c4ceb02cad55014cc5d1ed7990930/ViT_summary.PNG)
-*Note that the Conv2d does not serve the purpose of a typical convolutional layer. It's purpose is just to split the images into patches of 16x16.
+*Note that the Conv2d does not serve the purpose of a typical convolutional layer. It's purpose is just to split the images into patches of 16x16 and the filter serves as the learnable positional encoding

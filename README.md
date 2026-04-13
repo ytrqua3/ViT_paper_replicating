@@ -46,3 +46,5 @@ Also, I am curious what will the optimal structure that the paper suggests and m
 ![notes p.1](https://github.com/ytrqua3/ViT_paper_replicating/blob/913129242fa5dee25b8be47eff428b9099097fd5/ViT_notes1.jpeg)
 
 ![notes p.2](https://github.com/ytrqua3/ViT_paper_replicating/blob/913129242fa5dee25b8be47eff428b9099097fd5/ViT_notes2.jpeg)
+
+![ViT structure](https://github.com/ytrqua3/ViT_paper_replicating/blob/b14c4ac9367c4ceb02cad55014cc5d1ed7990930/ViT_summary.PNG)

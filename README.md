@@ -62,4 +62,5 @@ April 14:
 <ul>
   <li>used torch.nn.MultiheadAttention instead of creating a custom class with multiple attention heads</li>
   <li>a lot of debugging about shapes of the tensors</li>
+  <li>ran into an interesting problem where in the last batch, the batch size is no longer 32, so i have to change the size of the positional encoder matrix</li>
 </ul>

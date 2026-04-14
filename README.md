@@ -61,4 +61,5 @@ April 13:
 April 14:
 <ul>
   <li>used torch.nn.MultiheadAttention instead of creating a custom class with multiple attention heads</li>
+  <li>a lot of debugging about shapes of the tensors</li>
 </ul>

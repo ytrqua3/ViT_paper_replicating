@@ -55,4 +55,10 @@ April 13:
 <ul>
   <li>Spent time understanding the four main equations and plotting the general structure</li>
   <li>Understanding how the first step can be achieved using a Conv2d layer </li>
+
+  ![conv2d as splitter](https://github.com/ytrqua3/ViT_paper_replicating/blob/b8b43d3932ec0d304f12b80eeaba38e3915b8e47/ViT_equ1_conv2d.jpeg)
+</ul>
+April 14:
+<ul>
+  <li>used torch.nn.MultiheadAttention instead of creating a custom class with multiple attention heads</li>
 </ul>

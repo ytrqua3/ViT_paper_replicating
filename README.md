@@ -63,4 +63,10 @@ April 14:
   <li>used torch.nn.MultiheadAttention instead of creating a custom class with multiple attention heads</li>
   <li>a lot of debugging about shapes of the tensors</li>
   <li>ran into an interesting problem where in the last batch, the batch size is no longer 32, so i have to change the size of the positional encoder matrix</li>
+  <li>The model successfully performs the training loop but does not seem to learn, the reason might be that I did not set the CLASS token to be learnable</li>
+</ul>
+
+April 15:
+<ul>
+  <li></li>
 </ul>

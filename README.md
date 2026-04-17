@@ -68,5 +68,8 @@ April 14:
 
 April 15:
 <ul>
-  <li></li>
+  <li>I had a misunderstanding that CLS tokens just act as an input to the model, therefore, does not have to be trrainable. This is totally wrong!</li>
+  <li>The CLS token is optimized such that it acts as a starting point to summarize the image.</li>
+  <li>I also missed the batch_first parameter for MultiheadAttention, so the original model was not looking at the data as intended, causing the model to have a poor performance</li>
+  <li>It finally worked with around 30% accuracy at the 10th epoch and seems to be </li>
 </ul>

@@ -52,8 +52,11 @@ Also, I am curious what will the optimal structure that the paper suggests and m
 
 <h2>Final results on Custom ViT trained on CIRAR-10</h2>
 
+![ViT training process](https://github.com/ytrqua3/ViT_paper_replicating/blob/671ee31bd592bd4ffe7b2e98752283b40f4de16e/ViT_training_process.PNG)
+
 ![ViT results](https://github.com/ytrqua3/ViT_paper_replicating/blob/78b16e7da7258fbc6f3c736861104f50b59d9521/ViT_result.PNG)
 *note that the epochs (x-axis) should be 25, 50, 75, 100. 
+The test accuracy starts to flatten out at around the 50th epoch at almost 60% accuracy
 
 <h2>Logs for replicating the structure</h2>
 April 13: 

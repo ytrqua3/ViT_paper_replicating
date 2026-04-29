@@ -58,6 +58,10 @@ Also, I am curious what will the optimal structure that the paper suggests and m
 *note that the epochs (x-axis) should be 25, 50, 75, 100. 
 The test accuracy starts to flatten out at around the 50th epoch at almost 60% accuracy
 
+The attention map layover that I created to replicate Figure 6 of the paper also shows that the model focuses on pixels of the object. Clearly indicating that the model has learnt to classifiy objects.
+
+![ViT attention map](https://github.com/ytrqua3/ViT_paper_replicating/blob/a72b30ec3e81171612075c83b1302632e98b0f1c/attention_map_sample.PNG)
+
 <h2>Logs for replicating the structure</h2>
 April 13: 
 <ul>
